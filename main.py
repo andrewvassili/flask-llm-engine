@@ -14,6 +14,7 @@ MODEL_NAME = 'tinyllama'
 ollama_client = ollama.Client()
 ollama.pull(MODEL_NAME)
 
+# curl -X POST http://localhost:5005/generate-topic -H "Content-Type: application/json" -d '{"prompt": "What meal expenses can you claim for owners of a business?"}'
 
 @app.route('/generate-topic', methods=['POST'])
 def generate_topic():
