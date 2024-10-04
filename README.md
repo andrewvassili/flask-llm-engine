@@ -1,4 +1,4 @@
-# Running Llama3 on AWS using vLLM
+# Running Llama3 on AWS using vLLM, Ollama, Llama.cpp (still a work in prog) 
 
 ## Model: meta-llama/Meta-Llama-3-8B-Instruct
 ### Specs:
